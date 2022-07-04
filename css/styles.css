@@ -27,8 +27,8 @@ h1.header {
 
 .masthead {
 	position: relative;
-	width: 100%;
-	height: auto;
+	width: auto;
+	height: 800px;
 	min-height: 35rem;
 	padding: 15rem 0;
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../images/pageheader.jpeg");
@@ -36,4 +36,23 @@ h1.header {
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: cover;
+}
+
+.about-section {
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    padding: 0;
+}
+
+.imgDog-fluid {
+    max-width: 70%;
+    height: 100%;
+}
+.img-fluid {
+    max-width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
