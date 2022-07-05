@@ -19,7 +19,7 @@
 }
 
 .navbar-brand:hover {
-    opacity: 70%;
+    opacity: 80%;
 }
 
 .nav-item {
@@ -28,7 +28,7 @@
 }
 
 .nav-item:hover {
-    opacity: 70%;
+    opacity: 80%;
 }
 
 .navbar-toggler {
