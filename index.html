@@ -5,12 +5,13 @@
 
 		<!-- Bootstrap CSS -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-		
-		<!-- Custom styles for this template -->
-		<link href="css/starter-template.css" rel="stylesheet">
+	
 
-		<!-- YOUR styles for this template -->
+		<!-- CSS styles -->
 		<link href="css/styles.css" rel="stylesheet">
+
+		<!-- JavaScript -->
+		<script src="js/scripts.js"></script>
 
 		<!-- Google fonts-->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,11 +20,30 @@
 		
 	</head>
 
-	<header class="masthead">
+    <!-- Navigation-->
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+		<div class="container px-4 px-lg-5">
+			<a class="navbar-brand" href="#page-top">🐕 FastDoggos</a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				Menu
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item"><a class="nav-link" href="#numberOne">1️⃣</a></li>
+					<li class="nav-item"><a class="nav-link" href="#numberTwo">2️⃣</a></li>
+					<li class="nav-item"><a class="nav-link" href="#numberThree">3️⃣</a></li>
+					<li class="nav-item"><a class="nav-link" href="#numberFour">4️⃣</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header class="masthead" id="header">
 		<div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
 			<div class="d-flex justify-content-center">
 				<div class="text-center">
-					<h1 class="header">Top 4 Fastest Dog Breeds in the World</h1>
+					<h1>Top 4 Fastest Dog Breeds in the World</h1>
 					<a class="btn btn-primary" href="#about">Get Started</a>
 				</div>
 			</div>
@@ -34,8 +54,8 @@
 			<div class="row gx-4 gx-lg-5 justify-content-center">
 				<div class="col-lg-8">
 					<h2 class="text-white mb-4">Do you like to live life in the fast lane and are looking for a furry companion to share your speedy lifestyle?</h2>
-					<p class="text-white-50">
-						 While some pups were bred to be fast, others just want to get where they are going in a hurry! These pups make great family pets, can perform work or learn tricks using these flying skills! Although most pups can run pretty fast, there are definitely breeds that are built to move, and just may be your pawfect running buddy. Check out the Top 4 Fastest Dog Breeds in the World to find your fast, furry friend today.
+					<p class="text-white-75">
+						While some pups were bred to be fast, others just want to get where they are going in a hurry! These pups make great family pets, can perform work or learn tricks using these flying skills! Although most pups can run pretty fast, there are definitely breeds that are built to move, and just may be your pawfect running buddy. Check out the Top 4 Fastest Dog Breeds in the World to find your fast, furry friend today.
 					</p>
 				</div>
 			</div>
@@ -45,78 +65,93 @@
 
 	<body>
 		
-		<div class="col-lg-8 mx-auto p-3 py-md-5">
+		<div class="col-lg-10 mx-auto p-3 py-md-5">
 			<main>
+				<section class="dogs-section">
+					<div class="container">
+						<!-- Dog One Row-->
+						<div class="row gx-0 justify-content-center" id="numberOne">
+							<div class="col-lg-6"><img class="img-fluid" src="images/greyhound.jpg" alt="..." /></div>
+							<div class="col-lg-6">
+								<div class="bg-black text-left h-100">
+									<div class="d-flex h-100">
+										<div class="project-text w-100 my-auto text-left text-lg-left">
+											<h3>1️⃣ Greyhound</h3>
+											<h4 class="text-white">Top Speed: 45 mph💨</h5>
+											<p class="mb-3 text-white-75">Taking the top honor for the fastest dog is the Greyhound! They are spectacularly good movers and their tall stature makes for a beautiful picture as they speed by at 45 mph. They are one of the most-gentle breeds ever, and are just as happy in pursuit of their favorite small animal as they are lounging by your side.</p>
+											<a class="btn btn-primary btn-sm" href="https://wagwalking.com/breed/greyhound">Learn More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 
-				<!-- Dog One Row-->
-				<div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="images/greyhound.jpeg" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-left text-lg-left">
-                                    <h4 class="text-white">#1 Greyhound</h4>
-                                    <p class="mb-0 text-white-50">Taking the top honor for the fastest dog is the Greyhound! They are spectacularly good movers and their tall stature makes for a beautiful picture as they speed by at 45 mph. They are one of the most-gentle breeds ever, and are just as happy in pursuit of their favorite small animal as they are lounging by your side.</p>
-                                    <hr class="d-none d-lg-block mb-0 ms-0" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Dog Two Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="images/saluki.jpeg" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mountains</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                                    <hr class="d-none d-lg-block mb-0 me-0" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-				<!-- Dog Three Row-->
-				<div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="images/greyhound.jpeg" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-left text-lg-left">
-                                    <h4 class="text-white">#1 Greyhound</h4>
-                                    <p class="mb-0 text-white-50">Taking the top honor for the fastest dog is the Greyhound! They are spectacularly good movers and their tall stature makes for a beautiful picture as they speed by at 45 mph. They are one of the most-gentle breeds ever, and are just as happy in pursuit of their favorite small animal as they are lounging by your side.</p>
-                                    <hr class="d-none d-lg-block mb-0 ms-0" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Dog Four Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="images/saluki.jpeg" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mountains</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                                    <hr class="d-none d-lg-block mb-0 me-0" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+						<!-- Dog Two Row-->
+						<div class="row gx-0 justify-content-center" id="numberTwo">
+							<div class="col-lg-6"><img class="img-fluid" src="images/saluki.jpg" alt="..." /></div>
+							<div class="col-lg-6 order-lg-first">
+								<div class="bg-black text-left h-100 project">
+									<div class="d-flex h-100">
+										<div class="project-text w-100 my-auto text-left text-lg-left">
+											<h3>2️⃣ Saluki</h3>
+											<h4 class="text-white">Top Speed: 42 mph💨</h5>
+											<p class="mb-3 text-white-75">Coming in a close second is the Saluki with their top speed of 42 mph. Running is what they have been doing for thousands of years. This sighthound was bred to chase rabbits, but they are happy to just be a family pet as well. Take them for a run or a swim. Either way, they are happy to be the best companion ever.</p>
+											<a class="btn btn-primary btn-sm" href="https://wagwalking.com/breed/saluki">Learn More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Dog Three Row-->
+						<div class="row gx-0 justify-content-center" id="numberThree">
+							<div class="col-lg-6"><img class="img-fluid" src="images/afghanhound.jpg" alt="..." /></div>
+							<div class="col-lg-6">
+								<div class="bg-black text-left h-100 project">
+									<div class="d-flex h-100">
+										<div class="project-text w-100 my-auto text-left text-lg-left">
+											<h3>3️⃣ Afghan Hound</h3>
+											<h4 class="text-white">Top Speed: 40 mph💨</h5>
+											<p class="mb-3 text-white-75">Another 40-mph mover is the Afghan Hound. But this one has the fur waving in the wind as they pass you at these great speeds. Tall and elegant, this pup will move as quickly chasing small game as they will running to the couch! They love to go, and they love to relax. This great kid-friendly pup has it all.</p>
+											<a class="btn btn-primary btn-sm" href="https://wagwalking.com/breed/afghan-hound">Learn More</a>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<!-- Dog Four Row-->
+						<div class="row gx-0 mb-5 mb-lg-5 justify-content-center" id="numberFour">
+							<div class="col-lg-6"><img class="img-fluid" src="images/vizsla.jpg" alt="..." /></div>
+							<div class="col-lg-6 order-lg-first">
+								<div class="bg-black text-left h-100 project">
+									<div class="d-flex h-100">
+										<div class="project-text w-100 my-auto text-left text-lg-left">
+											<h3>4️⃣ Vizsla</h3>
+											<h4 class="text-white">Top Speed: 40 mph💨</h5>
+											<p class="mb-3 text-white-75">How about looks, intelligence and speed all rolled into one? The Vizsla is a medium-sized dog built like a rock. Very thin, but full of muscles, this dog can point, retrieve, swim, or just be your best pal. Ask them anything and they will gladly obey. Try to keep up with this 40-mph runner!</p>
+											<a class="btn btn-primary btn-sm" href="https://wagwalking.com/breed/vizsla">Learn More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 			</main>
-			<footer class="pt-5 my-5 text-muted border-top">
-				Created by the Bootstrap team &middot; &copy; 2022
-			</footer>
 		</div>
-
-
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 	</body>
+
+	<footer class="mt-10 justify-content-center">
+		<section class="footerText">
+			<h2 class="mb-3 text-white">Want to see more?</h5>
+		</section>
+		<div class="footerButton">
+			<a class="btn btn-primary" href="https://wagwalking.com/breed/top-fastest-dog-breeds-in-the-world">🐶 More fast doggos here 🐶</a>
+		</div>
+	</footer>
+	
 </html>
 
